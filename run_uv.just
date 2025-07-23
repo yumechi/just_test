@@ -16,3 +16,4 @@ ls option="":
   import sh
   l = sh.ls.bake("{{option}}" or None)
   print(l(), end='')
+	
