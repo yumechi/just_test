@@ -1,0 +1,19 @@
+[package]
+name = "just-test"
+version = "0.1.0"
+edition = "2021"
+description = "A test repository for learning and experimenting with just command runner"
+license = "Unlicense"
+repository = "https://github.com/yumechi/just_test"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "config"
+path = "src/config.rs"
+
+[dependencies]
+
+[dev-dependencies]

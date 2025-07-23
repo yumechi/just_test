@@ -1,0 +1,31 @@
+# Rust build artifacts
+/target/
+Cargo.lock
+
+# Binary outputs
+main
+main.exe
+config
+config.exe
+test_main
+test_main.exe
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*~
