@@ -1,4 +1,2 @@
-mod bob
-
-alice:
+@alice:
   echo "Alice!"
