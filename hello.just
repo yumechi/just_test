@@ -2,4 +2,10 @@
 set shell := ["powershell.exe", "-c"]
 
 hello:
-  Write-Host "Hello, world!"
+  Write-Host "Hello"
+
+comma:
+  Write-Host ", "
+
+world:
+  Write-Host "World!"
